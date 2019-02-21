@@ -1,0 +1,3 @@
+stages:
+- type: docker-build
+  name: build
