@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN sleep 99999999
+RUN while true; do echo sleeping; sleep 2; done
